@@ -22,9 +22,9 @@ int dim=Integer.parseInt(dimes);
 String quarters = JOptionPane.showInputDialog("how many quarters do you have?");
 int  quar=Integer.parseInt(quarters);
 		// Calculate how much money the user has and save it in a double variable 
-//(.1 *dim) + (.05* )
+double coins =(.1 *dim) + (.05* nick) + (.25 * quar);
 		// Tell the user how much money they have
-
+JOptionPane.showMessageDialog(null, "you have " + coins + " dollars");
 	}
 }
 
